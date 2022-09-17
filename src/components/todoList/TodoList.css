@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+
+.task-container{
+    background-color: #023047 ;
+    width: 500px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
+  .task-container button{
+    background-color: white;
+  }
+
+  .task-container button:hover{
+    transform: scale(1.1);
+  }
+  
+.task-container h1{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}  
+
+.task-container input{
+    margin: 30px;
+    margin-right: 10px;
+    width: 318px;
+    padding: 17px 26px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 120%;
+}
+
+.submit-button{
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+} 
+
+
+.task-list li{
+    background-color: white;
+    width: 400px;
+    border-radius:30px;
+    margin: 20px;
+    display: flex;
+    margin: 30px;
+    padding: 20px 7px;
+    font-size: 25px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.task-button button{
+    border: none;
+    font-size: 20px;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.528);
+}
+
+.task-button button:hover{
+    transform: scale(1.2);
+}
